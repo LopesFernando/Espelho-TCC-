@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+    <title>Contato</title>
+</head>
+
+<body>
+    <header>
+        <div class="inicio">
+            <a class="inicio__links" href="index.html">Página Inicial</a>
+            <a class="inicio__links" href="tese.html">Nosso Trabalho</a>
+            <a class="inicio__links" href="about.html">Quem Somos</a>
+            <a class="inicio__links" href="contact.html">Contato</a>
+        </div>
+    </header>
+    <section class="container">
+        <div class="conteudo__formulario">
+            <h1 class="titulo__pag"> Duvidas e Sugestões:</h1>
+        </div>
+        <form autocomplete="off" action="/enviar" method="POST">
+            <div class="conteudo__formulario">
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" required>
+            </div>
+            <div class="conteudo__formulario">
+                <label for="isobrenome">Sobrenome: </label>
+                <input type="text" name="sobrenome" id="isobrenome" required>
+            </div>
+            <div class="conteudo__formulario">
+                <label for="iprofissao">Profissão:</label>
+                <input type="text" name="profissao" id="iprofissao" required>
+            </div>
+            <div class="conteudo__formulario">
+                <label for="iemail">E-Mail:</label>
+                <input type="text" name="email" id="iemail" required>
+            </div>
+            <div class="conteudo__formulario">
+                <label for="imensagem">Mensagem: </label>
+                <textarea name="menssagem" id="imensagem" rows="4" required></textarea>
+            </div>
+            <div class="conteudo__formulario">
+                <input type="submit" value="ENVIAR">
+            </div>
+        </form>
+    </section>
+    <footer class="encerramento">
+        <a href="https://inscricao.prozeducacao.com.br/home-2024/" target="_blank">
+            <img class="encerramento__img" src="Imagens/Logo Proz.svg" alt="Logo Proz Educação">
+        </a>
+        <p class="encerramento__texto">&copy;2024 - Proz Educação - Curso Técnico e Profissionalizante. Todos os
+            direitos reservados.</p>
+        <p class="encerramento__texto">Site desenvolvido e criado pelos Alunos 3º Ano Novotec - Escola Estadual - Pedro
+            Brandão Dos Reis,Rua Piratininga, 332, José Bonifácio - SP, 15200-000</p>
+    </footer>
+</body>
+
+</html>
